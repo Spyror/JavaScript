@@ -49,4 +49,34 @@ const user =[
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+// De-Structure of Objects
+
+const course ={
+    coursename:"JS in hindi",
+    courseprize: 999,
+    courseinstructure:"Hitesh"
+}
+
+// course.courseinstructure
+
+const {courseinstructure: instructure} = course
+console.log(instructure);
+
+
+//*************API**************
+
+// {
+//     "name":"aman",
+//     "course":"JS in hindi",
+//     "prize": 999
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
